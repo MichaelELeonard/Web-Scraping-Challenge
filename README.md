@@ -53,7 +53,7 @@ The HTML table was extracted into a Pandas DataFrame and Splinter and Beautiful 
 <img src="Pics/Average Pressure by Month.png" width="256" height="269">
 
 
-* Identify which months, on average, has the lowest and highest atmospheric pressure 
+* Identify which months with the lowest and highest atmospheric pressure 
 
 <img src="Pics/Average Pressure by Month Bar Ordered.png" width="474" height="361">
 
