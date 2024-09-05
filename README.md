@@ -5,7 +5,7 @@ Scrape Mars News Code - https://github.com/MichaelELeonard/Web-Scraping-Challeng
 
 Scrape and Analyze Mars Weather Data Code - https://github.com/MichaelELeonard/Web-Scraping-Challenge/blob/main/part_2_mars_weather_working.ipynb
 
-For the Web Scraping with Beautiful Soup Challenge, our goal was to:
+## Goals
 * Scrape Titles and Preview Text from Mars News
 * Scrape and Analyze Mars Weather Data
 
