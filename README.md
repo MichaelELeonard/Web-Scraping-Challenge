@@ -1,8 +1,8 @@
 <img src="Pics/Header.png" width="796" height="383">
 
 # Web Scraping with Beautiful Soup Challenge
-Scrape Mars News Code
-Scrape and Analyze Mars Weather Data Code 
+Scrape Mars News Code - https://github.com/MichaelELeonard/Web-Scraping-Challenge/blob/main/part_1_mars_news_working.ipynb
+Scrape and Analyze Mars Weather Data Code - https://github.com/MichaelELeonard/Web-Scraping-Challenge/blob/main/part_2_mars_weather_working.ipynb
 
 For the Web Scraping with Beautiful Soup Challenge, our goal was to:
 * Scrape Titles and Preview Text from Mars News
@@ -12,9 +12,9 @@ For the Web Scraping with Beautiful Soup Challenge, our goal was to:
 For the first activity challenge we needed to go the website Mars Planet Science at https://static.bc-edx.com/data/web/mars_news/index.html and use automated browsing to inspect the site.  This was accomplished by right-clicking on the site and selecting Inspect using DevTools.  With the DevTools window open we were able to inspect the entire HTML code for the website as well as selecting specific items on the site and having DevtTools locate the specific corresponding HTML code.  The goal was to acquire all the article titles and article previews from the webpage.    
 To start the Python coding we first imported our dependencies, established a browser connection to Google Chrome, set the browser instance to the Mars website and scraped all the HTML code by setting up a html.parser using Beautiful Soup.  Through our inspection it was determined that we would be looking for a div tag <div> and a class of ‘list_text’.  All the components matching that criteria were identified and stored in a variable called ‘all_text_elem’.  Finally, the stored elements were place in a list of dictionaries using a for-loop where the title of the article as placed in a variable called ‘title’ and the previews were stored in a variable called ‘teaser_preview’.  The titles were identified by finding the div tag <div> and the class ‘content_title’ and the preview information was located using the div tag <div> and the class ‘article_teaser_body’.  Each webpage component was saved in a dictionary ‘article_dict’ and appended to a list of dictionaries called ‘text_list’.  The list was printed to confirm the successful completion of the task and the browser element was closed using browser.quit.    
 
-SCRAPE AND ANALYZE MARS WEATHER DATA
+## SCRAPE AND ANALYZE MARS WEATHER DATA
 For the second activity in the challenge, we were tasked with scraping data from a table on a webpage, reading it into a Pandas DataFrame and conducting data analysis on the information to identify certain data metrics.  DevTools was utilized to examine the webpage https://static.bc-edx.com/data/web/mars_facts/temperature.html and identify the tags and classes that would be used to acquire the data from the data table.  In VS code, Python was used to gather HTML code by establishing the needed dependencies, establishing a browser connection, and scraping the data using a Beautiful Soup HTML parser. The HTML data was stored in the variable ‘soup’, and the tag <table> and class ‘table’ was used to gather the table data into a variable called “mars_data_table’.  The data was then entered into two lists using for-loops.  The column headings were identified by the tag <th> and read into the variable mars_data_column_headers.  The table row data was identified generally through the <th> tag and the class ‘data-row’, and then specifically through the tag <td>.  The data was stored in the variable ‘mars_row_data’.  Finally, both lists were uploaded into a Pandas DataFrame called mars_weather_df for analysis.                 
-DATA ANAYLSIS
+## DATA ANAYLSIS
 The elements in the DataFrame were cast into the specific required data types and the DataFame was checked to ensure the process was successful.  This step was conducted using the following code:
 •	mars_weather_df['terrestrial_date'] = pd.to_datetime(mars_weather_df['terrestrial_date'])
 •	mars_weather_df['sol'] = mars_weather_df['sol'].astype(int)
@@ -22,6 +22,9 @@ The elements in the DataFrame were cast into the specific required data types an
 •	mars_weather_df['month'] = mars_weather_df['month'].astype(int)
 •	mars_weather_df['min_temp'] = mars_weather_df['min_temp'].astype(float)
 •	mars_weather_df['pressure'] = mars_weather_df['pressure'].astype(float)
+
+## RESULTS
+
 
 HOW MANY MONTHS EXIST ON MARS?
 The number of months on Mars was established:  
