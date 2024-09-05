@@ -27,7 +27,7 @@ The HTML table was extracted into a Pandas DataFrame and Splinter and Beautiful 
 <img src="Pics/Months.png" width="192" height="270">
 
 
-  * How many Martian days' worth of data are there? 
+  * How many Martian days' worth of data is in the dataset? 
 
 <img src="Pics/Days of data.png" width="61" height="39">
 
