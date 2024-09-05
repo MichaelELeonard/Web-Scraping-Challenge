@@ -2,6 +2,7 @@
 
 # Web Scraping with Beautiful Soup Challenge
 Scrape Mars News Code - https://github.com/MichaelELeonard/Web-Scraping-Challenge/blob/main/part_1_mars_news_working.ipynb
+
 Scrape and Analyze Mars Weather Data Code - https://github.com/MichaelELeonard/Web-Scraping-Challenge/blob/main/part_2_mars_weather_working.ipynb
 
 For the Web Scraping with Beautiful Soup Challenge, our goal was to:
