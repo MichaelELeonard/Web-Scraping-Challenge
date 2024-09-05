@@ -20,29 +20,38 @@ Scrape and Analyze Mars Weather Data Code - https://github.com/MichaelELeonard/W
 
 
 ## SCRAPE AND ANALYZE MARS WEATHER DATA
-* The HTML table was extracted into a Pandas DataFrame. Splinter and Beautiful Soup were used to scrape the data. The data was analyzed to answer the following questions:
+The HTML table was extracted into a Pandas DataFrame. Splinter and Beautiful Soup were used to scrape the data. The data was analyzed to answer the following questions:
+
   * How many months exist on Mars? 
+
 <img src="Pics/Months.png" width="192" height="270">
 
 
   * How many Martian days' worth of data are there? 
+
 <img src="Pics/Days of data.png" width="61" height="39">
 
  
   * Display the average Martian low temperature by month
+
 <img src="Pics/Avg Low Temp by Month.png" width=”249" height="277">
 
   * Plot the average Martian low temperature by month 
+
 <img src="Pics/Avg Low Bar.png" width=”477" height="366">
 
   * Plot the average Martian low temperature by month in ascending order
+
 <img src="Pics/Avg Low Temp Bar Ordered.png" width=”475" height="367">
 
 * Display the average Martian atmospheric pressure by month
+
 <img src="Pics/Average Pressure by Month.png" width=”256" height="269">
 
 * Identify which months, on average, has the lowest and highest atmospheric pressure 
+
 <img src="Pics/Avg Low Temp Bar Ordered.png" width=”474" height="361">
 
-  * Plot how many terrestrial (earth) days exist in a Martian year
+ * Plot how many terrestrial (earth) days exist in a Martian year
+
 <img src="Pics/Terrestrial Earth days in a Martian year.png" width=”476" height="359">
