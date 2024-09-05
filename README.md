@@ -1,11 +1,12 @@
 <img src="Pics/Header.png" width="796" height="383">
 
 # Web Scraping with Beautiful Soup Challenge
-
+Scrape Mars News Code
+Scrape and Analyze Mars Weather Data Code 
 
 For the Web Scraping with Beautiful Soup Challenge, our goal was to:
-•	Scrape Titles and Preview Text from Mars News
-•	Scrape and Analyze Mars Weather Data
+* Scrape Titles and Preview Text from Mars News
+* Scrape and Analyze Mars Weather Data
 
 ## SCRAPE TITLES AND PREVIEW TEXT FROM MARS NEWS
 For the first activity challenge we needed to go the website Mars Planet Science at https://static.bc-edx.com/data/web/mars_news/index.html and use automated browsing to inspect the site.  This was accomplished by right-clicking on the site and selecting Inspect using DevTools.  With the DevTools window open we were able to inspect the entire HTML code for the website as well as selecting specific items on the site and having DevtTools locate the specific corresponding HTML code.  The goal was to acquire all the article titles and article previews from the webpage.    
