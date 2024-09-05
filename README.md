@@ -11,9 +11,10 @@ Scrape and Analyze Mars Weather Data Code - https://github.com/MichaelELeonard/W
 
 ## SCRAPE TITLES AND PREVIEW TEXT FROM MARS NEWS
 
-* Automated browsing (with Splinter) was used to visit the Mars news site, and the HTML code was extracted (with Beautiful Soup). (10 points)
-* The titles and preview text of the news articles were scraped and extracted. (20 points)
-* The scraped information was stored in the specified Python data structure—specifically, a list of dictionaries. (10 points)
+* Automated browsing (with Splinter) was used to visit the Mars news site, and the HTML code was extracted (with Beautiful Soup).
+* The titles and preview text of the news articles were scraped and extracted.
+* The scraped information was stored in the specified Python data structure—specifically, a list of dictionaries.
+<img src="Pics/Part 1 results list.png" width="1565" height="574">
 
 
 
