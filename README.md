@@ -34,6 +34,7 @@ The HTML table was extracted into a Pandas DataFrame. Splinter and Beautiful Sou
  
   * Display the average Martian low temperature by month
 
+<img src="Pics/Avg Low Temp by Month.png" width="249" height="277">
 
 
   * Plot the average Martian low temperature by month 
