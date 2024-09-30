@@ -11,7 +11,7 @@
 * Scrape Titles and Preview Text from Mars News
 * Scrape and Analyze Mars Weather Data
 
-## SCRAPE TITLES AND PREVIEW TEXT FROM MARS NEWS
+## Scrape Titles and Preview Text from Mars News
 
 * Automated browsing (with Splinter) was used to visit the Mars news site, and the HTML code was extracted (with Beautiful Soup).
 * The titles and preview text of the news articles was scraped and extracted.
@@ -22,7 +22,7 @@
 
 
 
-## SCRAPE AND ANALYZE THE MARTIAN WEATHER DATA
+## Scrape and Analyze the Martian Weather Data
 The HTML table was extracted and Splinter and Beautiful Soup was used to scrape the data. The data was analyzed to answer the following questions:
 
   * How many months exist on Mars? 
