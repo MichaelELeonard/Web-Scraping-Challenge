@@ -23,7 +23,7 @@
 
 
 ## SCRAPE AND ANALYZE THE MARTIAN WEATHER DATA
-The HTML table was extracted into a Pandas DataFrame and Splinter and Beautiful Soup were used to scrape the data. The data was analyzed to answer the following questions:
+The HTML table was extracted and Splinter and Beautiful Soup was used to scrape the data. The data was analyzed to answer the following questions:
 
   * How many months exist on Mars? 
 
