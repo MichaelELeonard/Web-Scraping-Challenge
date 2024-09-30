@@ -1,9 +1,11 @@
 <img src="Pics/Header.png" width="796" height="383">
 
 # Web Scraping with Beautiful Soup Challenge
-Scrape Mars News Code - https://github.com/MichaelELeonard/Web-Scraping-Challenge/blob/main/part_1_mars_news_working.ipynb
 
-Scrape and Analyze Mars Weather Data Code - https://github.com/MichaelELeonard/Web-Scraping-Challenge/blob/main/part_2_mars_weather_working.ipynb
+[Scrape Mars News Code Link]( https://github.com/MichaelELeonard/Web-Scraping-Challenge/blob/main/part_1_mars_news_working.ipynb)
+
+[Scrape and Analyze Mars Weather Data Code Link]( https://github.com/MichaelELeonard/Web-Scraping-Challenge/blob/main/part_2_mars_weather_working.ipynb)
+
 
 ## Goals
 * Scrape Titles and Preview Text from Mars News
