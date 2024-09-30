@@ -14,8 +14,9 @@
 ## SCRAPE TITLES AND PREVIEW TEXT FROM MARS NEWS
 
 * Automated browsing (with Splinter) was used to visit the Mars news site, and the HTML code was extracted (with Beautiful Soup).
-* The titles and preview text of the news articles were scraped and extracted.
-* The scraped information was stored in the specified Python data structure—specifically, a list of dictionaries.
+* The titles and preview text of the news articles was scraped and extracted.
+* The scraped information was stored in the specified Python list of dictionaries.
+
 <img src="Pics/Results list A.png" width="1395" height="505">
 
 
